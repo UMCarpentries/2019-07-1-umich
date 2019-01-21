@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "University of Michigan: Undergraduate Science Building Room 3230"       # brief name of host site without address (e.g., "Euphoric State University")
-address: "204 Washtenaw Ave, Ann Arbor, MI 48109"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "University of Michigan"       # brief name of host site without address (e.g., "Euphoric State University")
+address: "Room 1180, Duderstadt Center, 2281 Bonisteel Blvd, Ann Arbor, MI 48109"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "42.277102, -83.733373"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Jan 7-8, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latlng: "42.291200, -83.715690"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+humandate: "Feb 28-Mar 1, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-12-17      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-12-18        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Stephanie Thiede", "Ada Hagan", "Josie Libertucci", "Zena Lapp"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Begüm D. Topçuoğlu", "Katie Saund"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["thiede@umich.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: http://pad.software-carpentry.org/2018-01-07-umich-wise          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+startdate: 2019-02-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-03-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Chris Gates", "Ry4an Brase" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBA", "TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["emcrosse@umich.edu", "cgates@umich.edu", "ry4an@brase.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: # http://pad.software-carpentry.org/2018-01-07-umich-wise          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -32,7 +32,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="registration" align="center">
   <strong>
 	  <font size="36">
-	  <a href="https://ttc.iss.lsa.umich.edu/ttc/sessions/wise-software-carpentry-free-training-in-r-git-and-bash/" target="_blank">Click Here to Register</a>
+      Registration Coming Soon
+	  <!-- <a href="" target="_blank">Click Here to Register</a> -->
 	  </font>
   </strong>
 </p>
@@ -523,7 +524,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
-           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility 
+           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
   <h3>Python</h3>
 
   <p>
@@ -612,9 +613,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-{% endcomment %}
 
-<div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
+<div id="r"> {% comment %} Start of 'R' section.
   <h3>R</h3>
 
   <p>
@@ -664,6 +664,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
+{% endcomment %}
 
 <div id="sql"> {% comment %} Start of 'SQLite' section. 
   <h3>SQLite</h3>
