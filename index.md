@@ -32,8 +32,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="registration" align="center">
   <strong>
 	  <font size="36">
-      Registration Coming Soon
-	  <!-- <a href="" target="_blank">Click Here to Register</a> -->
+	  <a href="https://umich.qualtrics.com/jfe/form/SV_8iHji2fRk1Oq3VX" target="_blank">Click Here to Register</a>
 	  </font>
   </strong>
 </p>
