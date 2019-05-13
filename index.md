@@ -6,14 +6,14 @@ address: "Room 1180, Duderstadt Center, 2281 Bonisteel Blvd, Ann Arbor, MI 48109
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "42.291200, -83.715690"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Feb 28-Mar 1, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Jul 1-2, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2019-02-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2019-03-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Zena Lapp", "Ada Hagan", "Chris Gates", "Ry4an Brase" ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Ari Kozik", "Alexander Ethridge", "Kelly Sovacool"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["emcrosse@umich.edu", ]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2019-02-28-umich          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+startdate: 2019-07-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-07-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Joshua Stough", "Begüm Topcuoglu", "Kelly Sovacool"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Ari Kozik", "Katherine McLean", "Dana King"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["stoughj@med.umich.edu", ]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://pad.carpentries.org/2019-07-01-umich          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -40,25 +40,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p align="center">
 	If you do not have a current U-M computing account, please visit <a href="https://friend.weblogin.umich.edu/friend/">this site</a> to create a Friend account before attempting to register.
 	</p>
-
-
-{% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 <h2 id="general">General Information</h2>
 
